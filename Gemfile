@@ -14,6 +14,7 @@ gem "sqlite3-ruby"
 gem "tartare", :git => "https://github.com/fesplugas/rails-tartare.git", :require => false
 
 # Keep this here because I use it as reference for development.
+gem "bcrypt-ruby"
 gem "fastercsv", "1.5.3" if RUBY_VERSION < '1.9'
 gem "render_inheritable"
 gem "will_paginate", "~> 3.0.pre2"
