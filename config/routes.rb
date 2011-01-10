@@ -20,7 +20,6 @@ Rails.application.routes.draw do
       match "#{resource}(/:action(/:id(.:format)))", :controller => resource
     end
 
-    match 'categories/:id/reposition/:reposition_type' => 'categories#reposition', :as => :reposition
 
   end
 
